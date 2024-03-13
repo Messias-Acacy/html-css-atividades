@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+    display: flex;
+    background-color: beige;
+
+}
+
+nav{
+    width: 20vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+header{
+    background-color: azure;
+    width: 80vw;
+    height: 20vh;
+}
+
+article{
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(221, 221, 14);
+}
+footer{
+    width: 60vw;
+    height: 20vh;
+    background-color: blue;
+}
+#flex{
+    display: flex;
+}
+
+aside{
+    width: 20vw;
+    background-color: black;
+    height: 80vh;
+}
