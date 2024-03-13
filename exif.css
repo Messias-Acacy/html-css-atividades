@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    background-color: rgb(255, 163, 42);
+    height: 20vh;
+    width: 100vw;
+}
+
+#referencia{
+    background-color: rgb(255, 224, 183);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+
+}
+
+article{
+    background-color: aquamarine;
+    width: 70vw;
+}
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 60vh;
+   
+}
+#container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 75%;
+    height: 60%;
+}
+
+#container1 > div{
+    margin: auto auto 10% auto;
+    background-color: rgb(119, 54, 54);
+    width: 40%;
+    height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
