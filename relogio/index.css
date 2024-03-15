@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+*{ padding: 0; margin: 0; font-family: 'orbitron'; color: white;}
+*::after,*::before{box-sizing: border-box;}
+
+body{
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 4.5vw;   gap:3px;
+    
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    
+    background-image: linear-gradient(to right,purple, orange);
+    width: 100vw;height: 100vh;
+
+}
+
+#relogio{
+    display: flex;
+    flex-direction: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 10px purple;
+    border-radius: 10px;
+    width: 35vw;
+    background-image:linear-gradient(to left, purple, orange);
+    height: 25vh;
+
+}
+.horarios{
+    border-radius: 10px;
+    background-color: black;
+    width: 30%;
+    height: 86%;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horarios > p{
+    font-size: 2.5vw;text-shadow: 2px 2px 0px rgb(255, 91, 91);
+}
+.horarios > p+p{font-weight: 800; font-size: 1vw;  }
+
+
+
